@@ -1,0 +1,11 @@
+name: raf-sam-kelvin
+channels:
+  - defaults
+  - conda-forge
+dependencies: 
+  - python=3.9.13
+  - pip
+  - qt
+  - pyqt
+  - cvxopt=1.2.6
+  - distinctipy

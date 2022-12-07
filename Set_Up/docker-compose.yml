@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+    app:
+        build: .
+        image: capstone 
+        volumes:
+            - ./data:/home/data
+        stdin_open: true
+        tty: true
